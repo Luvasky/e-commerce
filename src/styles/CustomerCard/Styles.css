@@ -1,0 +1,89 @@
+.cu-main-container {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  /* background-color: aqua; */
+}
+
+.cu-t {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-left: 70px;
+  padding-top: 10px;
+  /* background-color: blueviolet; */
+}
+
+.cu-c-400px {
+  width: 460px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cu-c-c {
+  width: 100%;
+  height: 310px;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cu-m-c-c {
+  width: 410px;
+  height: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+
+.cu-c-s {
+  width: 100%;
+  height: 50px;
+
+  /* background-color: aqua; */
+}
+.cu-n {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-left: 20px;
+}
+
+.cu-i {
+  width: 20px;
+  height: 20px;
+}
+
+.cu-n-v {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  /* background-color: blanchedalmond; */
+}
+
+.cu-r {
+  width: 100%;
+  height: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: aqua; */
+}
+.cu-star {
+  color: gold;
+  font-size: 30px; /* Ajusta el tamaño según sea necesario */
+  padding-left: 20px;
+}

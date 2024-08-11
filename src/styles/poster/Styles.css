@@ -1,0 +1,393 @@
+.p-main-container {
+  background-color: rgb(242, 240, 241);
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.p-left-section {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(242, 240, 241);
+}
+
+.p-m-1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+}
+
+.p-m-2 {
+  width: 100%;
+}
+
+.p-c-m-2 {
+  /* background-color: blueviolet; */
+  width: 500px;
+  color: black;
+  opacity: 60%;
+  padding-left: 7%;
+  font-size: 13.1px;
+  line-height: 20px;
+}
+
+.p-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.p-button-second-container {
+  width: 86%;
+  padding-top: 10px;
+}
+
+.p-button-buy {
+  width: 150px;
+  height: 35px;
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.p-cart-button {
+  position: absolute;
+  top: 8px;
+  transform: translateX(120px);
+  transition: transform 0.3s ease;
+}
+
+.p-container-numbers {
+  width: 100%;
+  height: 20%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.p-second-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p-c-n-1 {
+  width: 30%;
+  height: 50px;
+  color: black;
+  border-right: 1.5px solid rgb(218, 216, 271);
+}
+
+.p-n-1,
+.p-n-2,
+.p-n-3 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1;
+}
+
+.p-m-n-1,
+.p-m-n-2,
+.p-m-n-3 {
+  color: black;
+  opacity: 60%;
+}
+.p-c-n-2 {
+  width: 30%;
+  height: 50px;
+  border-right: 1.5px solid rgb(218, 216, 271);
+}
+
+.p-c-n-3 {
+  width: 30%;
+  height: 50px;
+}
+
+.p-right-section {
+  width: 50%;
+  height: 100%;
+  background-color: violet;
+  background-color: rgb(242, 240, 241);
+  position: relative;
+}
+
+.p-p-image {
+  width: 550px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.p-p2-image {
+  display: none;
+}
+
+.p-s-1 {
+  position: absolute;
+  top: 5vh;
+  right: 10%;
+}
+
+.p-s-2 {
+  position: absolute;
+  top: 38vh;
+  left: 2%;
+}
+
+.p-button-buy:hover {
+  width: 150px;
+  height: 35px;
+  border-radius: 40px;
+  color: white;
+  border: none;
+}
+
+.p-button-buy:hover .p-cart-button {
+  transition: transform 0.3s ease;
+  transform: translateX(70px);
+}
+
+@media (max-width: 600px) {
+  .p-main-container {
+    background-color: rgb(242, 240, 241);
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-left-section {
+    width: 100%;
+    height: 90%;
+    /* background-color: blue; */
+  }
+  .p-left-right {
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+  }
+
+  .p-m-1 {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+    padding-left: 20px;
+  }
+
+  .p-m-2 {
+  }
+
+  .p-c-m-2 {
+    width: 90%;
+    color: black;
+    opacity: 60%;
+    padding-left: 7%;
+    font-size: 13.1px;
+    line-height: 20px;
+  }
+
+  .p-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .p-button-second-container {
+    width: 90%;
+    padding-top: 10px;
+  }
+
+  .p-button-buy {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .p-cart-button {
+    position: absolute;
+    top: 15px;
+    transform: translateX(250px);
+    transition: transform 0.3s ease;
+  }
+
+  .p-container-numbers {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-second-container {
+    width: 310px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Aquí se permite el wrap */
+  }
+
+  .p-c-n-1 {
+    width: 50%;
+    height: 50px;
+    color: black;
+    border-right: 1.5px solid rgb(218, 216, 271);
+  }
+
+  .p-n-1,
+  .p-n-2,
+  .p-n-3 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+  }
+
+  .p-m-n-1,
+  .p-m-n-2,
+  .p-m-n-3 {
+    color: black;
+    opacity: 60%;
+  }
+  .p-c-n-2 {
+    width: 50%;
+    height: 50px;
+    border-right: 1.5px solid rgb(218, 216, 271);
+    padding-left: 5px;
+    border: none;
+  }
+
+  .p-c-n-3 {
+    width: 50%;
+    height: 50px;
+  }
+
+  .p-right-section {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    /* background-color: violet; */
+  }
+
+  .p-p-image {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    display: none;
+  }
+
+  .p-p2-image {
+    display: flex;
+    width: 90%;
+    height: 400px;
+    transform: translateX(5%);
+  }
+
+  .p-s-1 {
+    position: absolute;
+    top: 3vh;
+    right: 5%;
+    z-index: 2;
+  }
+
+  .p-s-2 {
+    position: absolute;
+    top: 22vh;
+    left: 2%;
+    z-index: 2;
+  }
+
+  .p-button-buy:hover {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .p-button-buy:hover .p-cart-button {
+    transition: transform 0.3s ease;
+    transform: translateX(120px);
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .p-main-container {
+    background-color: rgb(242, 240, 241);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-left-section {
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+  }
+
+  .p-right-section {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    /* background-color: violet; */
+  }
+
+  .p-p-image {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    display: none;
+  }
+
+  .p-p2-image {
+    display: flex;
+    width: 50%;
+    height: 400px;
+    transform: translateX(50%);
+  }
+
+  .p-s-1 {
+    position: absolute;
+    top: 5vh;
+    right: 15%;
+    z-index: 2;
+  }
+
+  .p-s-2 {
+    position: absolute;
+    top: 40vh;
+    left: 25%;
+    z-index: 2;
+  }
+}

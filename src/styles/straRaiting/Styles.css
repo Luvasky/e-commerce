@@ -1,0 +1,28 @@
+.star-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Asegura que las estrellas estén alineadas verticalmente */
+}
+
+.star {
+  font-size: 2rem;
+  color: grey;
+  cursor: pointer;
+  transition: color 200ms;
+  line-height: 1; /* Asegura que las estrellas estén rectas */
+}
+
+.star.filled {
+  color: gold;
+}
+
+.star:hover {
+  color: orange;
+}
+
+.rating-value {
+  font-size: 1rem;
+  margin-left: 10px;
+  color: black;
+  opacity: 60%;
+}
